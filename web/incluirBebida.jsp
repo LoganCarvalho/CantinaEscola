@@ -111,8 +111,10 @@
                             <button location="incluirProduto.jsp" class="btn btn-primary">Nova Bebida</button>              
                         <div>    
                     </div>    
-                </form>
-                <hr>
+                </form>     
+            </div>
+            <div class="row">
+              <hr>               
             </div>
         </div>    
     </body>

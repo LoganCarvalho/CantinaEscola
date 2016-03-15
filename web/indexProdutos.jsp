@@ -52,23 +52,20 @@
                    <hr>
                 </div> 
                 <div class="row">
-                        <div class="col-md-4 col-sm-6 col-xs-6" style="margin-left:150px;" >           
-                            <div class="panel panel-success noti-box"style="border:solid; cursor:pointer;">                                
-                                <div class="text-box" style="margin-left:100px; margin-top: 13px;" >
-                                    <a href="incluirBebida.jsp" class="a-link">Bebidas</a>
-                                </div>
-                            </div>
+                        <div class="col-xs-8 col-lg-offset-1 col-lg-push-1 col-md-3">
+                          <a href="incluirBebida.jsp" class="thumbnail">
+                             <img src="imagens/Drinks.jpg" alt="...">
+                              <label for="" class="col-sm-8 col-lg-offset-3 control-label">Incluir Bebida</label>
+                          </a>                           
                         </div>
-                        <div class="col-md-4 col-sm-6 col-xs-6">           
-                            <div class="panel panel-success noti-box" style="border:solid; cursor:pointer;">                                
-                                <div class="text-box" style="margin-left:100px; margin-top: 13px;" >
-                                    <a href="incluirProduto.jsp" class="a-link">Comidas</a>
-                                </div>
-                            </div>
-                        </div>
+                         <div class="col-xs-5 col-lg-push-3 col-md-3">
+                          <a href="incluirProduto.jsp" class="thumbnail">
+                             <img src="imagens/Foods.jpg" alt="...">                            
+                              <label for="" class="col-sm-8 col-lg-offset-3  control-label">Incluir Produto</label>
+                          </a>
+                     </div>
                        </div>
                     </div>
-                <hr>
             </div>
         </div>    
     </body>
