@@ -62,17 +62,17 @@
                 <div class="col-md-5">
                    <div class="row">
                          <div class="col-md-12" style="left: 218px; margin-top: 58px;">
-                            <form class="form-horizontal">
+                             <form class="form-horizontal" action="ServletLogin" method="post"> <%-- Tem que adcionar a action que é o servlet que pretende-se usar mais o method--%>
                                  <div class="form-group">
                                     <label for="inputEmail3" class="col-sm-2 control-label">Login</label>
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" style="width:40%;" id="inputEmail3" placeholder="Login">
+                                        <input type="email" class="form-control" style="width:40%;" id="txtLogin" placeholder="Login">
                                     </div>
                                  </div>
                                 <div class="form-group">
                                     <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
                                     <div class="col-sm-10">
-                                        <input type="password" class="form-control" style="width:40%;" id="inputPassword3" placeholder="Senha">
+                                        <input type="password" class="form-control" style="width:40%;" id="txtPassword" placeholder="Senha">
                                     </div>
                                 </div>                            
                             </form>
@@ -82,7 +82,7 @@
                          <div class="col-md-offset-10" style="margin-left: 355px;">
                             <div class="form-group">
                                 <div class="col-sm-12">
-                                    <button type="submit" class="btn btn-success">Entrar</button>
+                                    <button type="submit" class="btn-primary">Entrar</button>
                                 </div>
                             </div>
                         </div>
