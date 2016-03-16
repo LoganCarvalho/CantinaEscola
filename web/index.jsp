@@ -16,6 +16,10 @@
         <!-- Latest compiled JavaScript -->
         <script src="js/bootstrap.min.js"></script>
         
+        <!-- FormValidation plugin and the class supports validating Bootstrap form -->
+        <script src="/vendor/formvalidation/dist/js/formValidation(.min).js"></script>
+        <script src="/vendor/formvalidation/dist/js/framework/bootstrap(.min).js"></script>
+        
     </head>
     <body>
         <div class="container">
@@ -81,9 +85,9 @@
                             </form>
                         </div>
                     </div>
-<%-- <script>
+ <script>
 $(document).ready(function() {
-    $('#LoginForm').formValidation({
+    $('#LoginForm').formvalidation({
         framework: 'bootstrap',
         icon: {
             valid: 'glyphicon glyphicon-ok',
@@ -112,7 +116,7 @@ $(document).ready(function() {
 	 }
     });
 });
-</script>--%>
+</script>
                     
                 </div>                
              </div>       
