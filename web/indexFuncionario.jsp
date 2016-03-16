@@ -56,18 +56,21 @@
                     <div class="col-xs-5 col-md-3">
                           <a href="manterProdutos.jsp" class="thumbnail">
                              <img src="imagens/Meuprato.png" alt="...">
+                              <label for="" class="col-sm-8 col-lg-offset-3 control-label">Manter Produto</label>
                           </a>
                      </div>
                     
                      <div class="col-xs-2 col-lg-push-1 col-lg-offset-0 col-md-3">
                           <a href="cadastrarPais.jsp" class="thumbnail">
                              <img src="imagens/cadastro.png" alt="...">
+                              <label for="" class="col-sm-8 col-lg-offset-3 control-label">Cadastrar Pais</label>
                           </a>
                      </div>
                     
                     <div class="col-xs-6 col-lg-push-1 col-lg-offset-1 col-md-3">
                           <a href="" class="thumbnail">
                              <img src="imagens/saldo.png" alt="...">
+                               <label for="" class="col-sm-8 col-lg-offset-3 control-label">Consultar Saldo</label>
                           </a>
                      </div>   
                 </div>
