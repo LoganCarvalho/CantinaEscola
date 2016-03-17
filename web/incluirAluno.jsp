@@ -60,33 +60,33 @@
                    
                     <div class="row">
                         <div class="col-md-3 form-group">             
-                                <label for="nomeResponsavel">Nome do Responsável*</label>
+                                <label for="matricula">Matricula*</label>
                         </div>    
                        <div class="form-group col-md-4 col-lg-pull-1">  
-                                <input type="txt" name="nomeResponsavel" class="form-control" id="nomeResponsavel">
+                                <input type="txt" name="matricula" class="form-control" id="matricula">
                         </div>   
                          
                         <div class="col-md-3 form-group">     
-                                <label for="codigo">CPF*</label>
+                                <label for="turma">Turma*</label>
                         </div>    
                        <div class="col-md-2 col-lg-pull-2 form-group">  
-                                <input type="txt"  name="codigo" class="form-control" id="codigo">
+                                <input type="txt"  name="turma" class="form-control" id="turma">
                         </div>        
                     </div>     
                                     
                     <div class="row">
                         <div class="col-md-3 form-group">
-                                <label for="email">Email*</label>
+                                <label for="turno">Turno*</label>
                         </div>    
                        <div class="col-md-4 col-lg-pull-1 form-group">  
-                                <input type="txt" name="email" placeholder="email@email.com" class="form-control" id="email">
+                                <input type="txt" name="turno" class="form-control" id="turno">
                         </div> 
                         
                         <div class="col-md-2 form-group">
-                                <label for="telefone">Telefone* </label>
+                                <label for="nome">Nome* </label>
                         </div>    
                        <div class="col-md-2 col-lg-pull-1 form-group">  
-                                <input type="txt" name="telefone" placeholder="(00) 0000-0000" class="form-control" id="telefone">
+                                <input type="txt" name="nome"  class="form-control" id="nome">
                         </div>    
                     </div>
                     
@@ -94,7 +94,7 @@
                 <br>
                     <div class="row">
                         <div class="col-md-offset-9">                          
-                             <a href="cadastrarPais.jsp"><input  class="btn btn-primary" type="button"value="Novo Cadastro"></a> 
+                            <a href="incluirAluno.jsp"><input  class="btn btn-primary" type="button"value="Novo Cadastro"></a> 
                             <button type="submit" class="btn btn-success">Salvar Cadastro</button>                                                     
                         </div>
                     </div>
