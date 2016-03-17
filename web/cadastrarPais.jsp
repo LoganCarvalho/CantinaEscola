@@ -10,14 +10,14 @@
     <head>
         <title style="font-style: oblique">SCE - Sistema Cantina Escola</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-          <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <!-- Latest compiled JavaScript -->
         <script src="js/bootstrap.min.js"></script>
         <link href="assets/css/custom.css" rel="stylesheet" />
-       <script src="external/jquery/jquery.js"></script>
+        <script src="external/jquery/jquery.js"></script>
         <script src="jquery-ui.min.js"></script>
    </head>
     <body>
@@ -63,14 +63,14 @@
                                 <label for="nomeResponsavel">Nome do Responsável*</label>
                         </div>    
                        <div class="form-group col-md-4 col-lg-pull-1">  
-                                <input type="txt" name="nomeResponsavel" class="form-control" id="nomeResponsavel">
+                                <input type="txt" required="true" name="nomeResponsavel" class="form-control" id="nomeResponsavel">
                         </div>   
                          
                         <div class="col-md-3 form-group">     
                                 <label for="codigo">CPF*</label>
                         </div>    
                        <div class="col-md-2 col-lg-pull-2 form-group">  
-                                <input type="txt"  name="codigo" class="form-control" id="codigo">
+                                <input type="txt" required="true" name="codigo" class="form-control" id="codigo">
                         </div>        
                     </div>     
                                     
@@ -79,14 +79,14 @@
                                 <label for="email">Email*</label>
                         </div>    
                        <div class="col-md-4 col-lg-pull-1 form-group">  
-                                <input type="txt" name="email" placeholder="email@email.com" class="form-control" id="email">
+                                <input type="txt" required="true" name="email" placeholder="email@email.com" class="form-control" id="email">
                         </div> 
                         
                         <div class="col-md-2 form-group">
                                 <label for="telefone">Telefone* </label>
                         </div>    
                        <div class="col-md-2 col-lg-pull-1 form-group">  
-                                <input type="txt" name="telefone" placeholder="(00) 0000-0000" class="form-control" id="telefone">
+                                <input type="txt" required="true" name="telefone" placeholder="(00) 0000-0000" class="form-control" id="telefone">
                         </div>    
                     </div>
                     
@@ -94,7 +94,7 @@
                 <br>
                     <div class="row">
                         <div class="col-md-offset-9">                          
-                             <a href="cadastrarPais.jsp"><input  class="btn btn-primary" type="button"value="Novo Cadastro"></a> 
+                             <a href="cadastrarPais.jsp"><input class="btn btn-primary" type="button" value="Novo Cadastro"></a> 
                             <button type="submit" class="btn btn-success">Salvar Cadastro</button>                                                     
                         </div>
                     </div>

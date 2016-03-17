@@ -10,7 +10,7 @@
     <head>
         <title>SCE - Sistema Cantina Escola</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-          <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -65,7 +65,7 @@
                         </div>    
                        <div class="col-md-2 col-lg-pull-1">  
                             <div class="form-group">
-                                <input type="txt" name="codigoBebida" class="form-control" id="codigoBebida">
+                                <input type="txt" name="codigoBebida" required="true" class="form-control" id="codigoBebida">
                             </div>
                         </div>    
                     </div>   
@@ -77,7 +77,7 @@
                         </div>    
                        <div class="col-md-4 col-lg-pull-1">  
                             <div class="form-group">
-                                <input  type =" txt" name="nomeBebida" class="form-control" id="nomeBebida">
+                                <input  type ="xt" name="nomeBebida" required="true" class="form-control" id="nomeBebida">
                             </div>
                         </div>    
                     </div>                    
@@ -89,7 +89,7 @@
                         </div>    
                        <div class="col-md-4 col-lg-pull-1">  
                              <div class="form-group">
-                                <input type="txt" name="fornecedor" class="form-control" id="fornecedor">
+                                <input type="txt" name="fornecedor" required="true" class="form-control" id="fornecedor">
                             </div>
                         </div>    
                     </div>
@@ -101,14 +101,14 @@
                         </div>    
                        <div class="col-md-2 col-lg-pull-1">  
                             <div class="form-group">
-                                <input type="txt" name="precoBebida" placeholder="R$" class="form-control" id="precoBebida">
+                                <input type="txt" name="precoBebida" required="true" placeholder="R$" class="form-control" id="precoBebida">
                             </div>
                         </div>    
                     </div>
                     <div class="row">
-                        <div class="col-md-offset-3">
+                        <div class="col-md-offset-3"> 
+                            <button location="incluirProduto.jsp" class="btn btn-primary">Nova Bebida</button>   
                             <button type="submit" class="btn btn-success">Salvar Bebida</button>
-                            <button location="incluirProduto.jsp" class="btn btn-primary">Nova Bebida</button>              
                         <div>    
                     </div>    
                 </form>     

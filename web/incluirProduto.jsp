@@ -65,7 +65,7 @@
                         </div>    
                        <div class="col-md-4 col-lg-pull-1">  
                             <div class="form-group">
-                                <input type="txt" name="codigo" class="form-control" id="codigo">
+                                <input type="txt" name="codigo" required="true" class="form-control" id="codigo">
                             </div>
                         </div>    
                     </div>   
@@ -77,7 +77,7 @@
                         </div>    
                        <div class="col-md-4 col-lg-pull-1">  
                             <div class="form-group">
-                                <input type="txt" name="nome" class="form-control" id="nome">
+                                <input type="txt" name="nome" required="true" class="form-control" id="nome">
                             </div>
                         </div>    
                     </div>                    
@@ -89,7 +89,7 @@
                         </div>    
                        <div class="col-md-4 col-lg-pull-1">  
                             <div class="form-group">
-                                <textarea class="form-control" rows="5" name="comment" id="comment"></textarea>
+                                <textarea class="form-control" required="true" rows="5" name="comment" id="comment"></textarea>
                             </div>
                         </div>  
                        
@@ -102,7 +102,7 @@
                         </div>    
                        <div class="col-md-4 col-lg-pull-1">  
                             <div class="form-group">
-                                <input  type="txt" name="preco" placeholde="R$" class="form-control" id="preco">
+                                <input  type="txt" name="preco" required="true" placeholde="R$" class="form-control" id="preco">
                             </div>
                         </div>    
                     </div>
