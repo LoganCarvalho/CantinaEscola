@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -28,7 +29,7 @@ public class ServletLogin extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
@@ -37,13 +38,14 @@ public class ServletLogin extends HttpServlet {
         String USenha = request.getParameter("txtPassword");
         
         try {
-           if(Ulogin.equalsIgnoreCase("admin")&&USenha.equalsIgnoreCase("admin")){
+           if(Ulogin.equalsIgnoreCase("admin@admin")&&USenha.equalsIgnoreCase("admin")){
                HttpSession session = request.getSession();
                session.setAttribute("Usuario", Ulogin);
-               RequestDispatcher rd = request.getRequestDispatcher("SegundoServlet");
+               RequestDispatcher rd = request.getRequestDispatcher("ServletSession");
                rd.forward(request, response);
            
            }else{
+           out.println("Usuário não existe ou está incorreto!");
            RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
            rd.include(request, response);
            }

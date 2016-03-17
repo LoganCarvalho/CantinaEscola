@@ -3,19 +3,19 @@
     <servlet>
         <description>Servlet que dará acesso ao sistema</description>
         <servlet-name>ServletLogin</servlet-name>
-        <servlet-class>src\Servlets\ServletLogin</servlet-class>
+        <servlet-class>Servlets.ServletLogin</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>SegundoServlet</servlet-name>
-        <servlet-class>SegundoServlet</servlet-class>
+        <servlet-name>ServletSession</servlet-name>
+        <servlet-class>Servlets.ServletSession</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletLogin</servlet-name>
         <url-pattern>/ServletLogin</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>SegundoServlet</servlet-name>
-        <url-pattern>/SegundoServlet</url-pattern>
+        <servlet-name>ServletSession</servlet-name>
+        <url-pattern>/ServletSession</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

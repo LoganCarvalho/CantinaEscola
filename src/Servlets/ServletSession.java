@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package Servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -17,7 +18,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author Logan
  */
-public class SegundoServlet extends HttpServlet {
+public class ServletSession extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -28,7 +29,7 @@ public class SegundoServlet extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
