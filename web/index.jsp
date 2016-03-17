@@ -12,15 +12,13 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-       
-        <!-- Latest compiled JavaScript -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="js/jquery-1.12.1.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        
-        <!-- FormValidation plugin and the class supports validating Bootstrap form -->
-        <script src="/vendor/formvalidation/dist/js/formValidation(.min).js"></script>
-        <script src="/vendor/formvalidation/dist/js/framework/bootstrap(.min).js"></script>
+        <script src="js/bootstrap.min.js"></script>  
+        <script type="text/javascript" src="js/formValidation.min.js"></script>     
+        <!-- Validação Formvalidation -->    
+        <script type="text/javascript" src="js/the-framework.js"></script>        
+        <script type="text/javascript" src="js/pt_BR.js"></script>        
         
     </head>
     <body>
@@ -66,7 +64,7 @@
                         </div>
                     </div>                                       
                 <div class="col-md-6 col-lg-push-2">                                   
-                             <form id="LoginForm" class="form-horizontal" action="ServletLogin" method="post"> <%-- Tem que adcionar a action que é o servlet que pretende-se usar mais o method--%>
+                             <form id="LoginForm" class="form-horizontal" action="ServletLogin" method="post"> <%-- Tem que adcionar a action que é o servlet que pretende-se usar mais o method   action="ServletLogin" --%> 
                                  <div class="form-group">
                                     <label for="inputEmail3" class="col-sm-2 control-label">Login</label>
                                     <div class="col-sm-10 col-lg-5">
@@ -83,7 +81,7 @@
                                    <button type="submit" class="btn-primary">Entrar</button>                                                             
                                 </div>                               
                             </form>                                         
- <%--<script>
+ <%-- <script>
 $(document).ready(function() {
     $('#LoginForm').formvalidation({
         framework: 'bootstrap',
@@ -114,7 +112,7 @@ $(document).ready(function() {
 	 }
     });
 });
-</script>   --%>               
+</script>  --%>             
                 </div>                
              </div>       
                 <div class="row">
