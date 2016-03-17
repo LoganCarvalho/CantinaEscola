@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+       
         <!-- Latest compiled JavaScript -->
+        <script src="js/jquery-1.12.1.js"></script>
         <script src="js/bootstrap.min.js"></script>
         
         <!-- FormValidation plugin and the class supports validating Bootstrap form -->
@@ -63,29 +65,25 @@
                             </div>
                         </div>
                     </div>                                       
-                <div class="col-md-5">
-                   <div class="row">
-                         <div class="col-md-12" style="left: 218px; margin-top: 58px;">
+                <div class="col-md-6 col-lg-push-2">                                   
                              <form id="LoginForm" class="form-horizontal" action="ServletLogin" method="post"> <%-- Tem que adcionar a action que é o servlet que pretende-se usar mais o method--%>
                                  <div class="form-group">
                                     <label for="inputEmail3" class="col-sm-2 control-label">Login</label>
                                     <div class="col-sm-10 col-lg-5">
-                                        <input type="email" class="form-control" name="txtLogin" placeholder="Login">
+                                        <input type="email" required="true" class="form-control" name="txtLogin" placeholder="Login">
                                     </div>
                                  </div>
                                 <div class="form-group">
                                     <label for="inputPassword3" class="col-sm-2 control-label">Senha</label>
                                     <div class="col-sm-10 col-lg-5">
-                                        <input type="password" class="form-control" name="txtPassword" placeholder="Senha">
+                                        <input type="password" required="true" class="form-control" name="txtPassword" placeholder="Senha">
                                     </div>
                                 </div>                         
                                <div class="col-lg-offset-5 col-lg-4">                                                           
-                                      <button type="submit" class="btn-primary">Entrar</button>                                                             
+                                   <button type="submit" class="btn-primary">Entrar</button>                                                             
                                 </div>                               
-                            </form>
-                        </div>
-                    </div>
- <script>
+                            </form>                                         
+ <%--<script>
 $(document).ready(function() {
     $('#LoginForm').formvalidation({
         framework: 'bootstrap',
@@ -116,8 +114,7 @@ $(document).ready(function() {
 	 }
     });
 });
-</script>
-                    
+</script>   --%>               
                 </div>                
              </div>       
                 <div class="row">
