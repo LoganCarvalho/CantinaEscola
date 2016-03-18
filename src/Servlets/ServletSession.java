@@ -38,7 +38,15 @@ public class ServletSession extends HttpServlet {
         
         try{
            if(session!=null){
-           out.print("<h4>WELCOME "+ session.getAttribute("Usuario"));
+            out.println("<!DOCTYPE html>");
+            out.println("<html>");
+            out.println("<head>");
+            out.println("<title>PÁGINA DE LOGIN</title>");            
+            out.println("</head>");
+            out.println("<body>");
+            out.print("<h4>WELCOME "+ session.getAttribute("Usuario"));
+            out.println("</body>");
+            out.println("</html>");       
            }else{
                RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
                rd.include(request, response);
