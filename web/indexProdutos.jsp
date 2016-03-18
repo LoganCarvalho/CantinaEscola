@@ -24,7 +24,7 @@
              <nav class="navbar navbar-inverse" style="background-color:#00796B">
                     <div class="container-fluid">
                         <ul class="nav navbar-nav">
-                             <li><a href="#" style="color:#EEEEEE">HOME</a></li>
+                             <li><a href="indexFuncionario.jsp" style="color:#EEEEEE">HOME</a></li>
                            <li><a href="#" style="color:#EEEEEE">ESCOLAS PARCEIRAS</a></li>
                             <li><a href="#" style="color:#EEEEEE">CONTATOS</a></li>
                             <li><a href="#" style="color:#EEEEEE">SOBRE</a></li> 

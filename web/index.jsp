@@ -31,7 +31,7 @@
                         </div>
                         <ul class="nav navbar-nav">
                              <li><a href="#" style="color:#EEEEEE">ESCOLAS PARCEIRAS</a></li>
-                            <li><a href="#" style="color:#EEEEEE">CONTATOS</a></li>
+                            <li><a href="ContatosSCE.jsp" style="color:#EEEEEE">CONTATOS</a></li>
                             <li><a href="#" style="color:#EEEEEE">SOBRE</a></li> 
                         </ul>
                     </div>
