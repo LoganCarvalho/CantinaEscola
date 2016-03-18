@@ -128,6 +128,10 @@
                         </div>
                     </div>
                 </div>
+                <footer style="background-color:#00796B">
+                        
+                    </hgroup>
+                </footer>
                 <hr>
             </div>
         </div>    
