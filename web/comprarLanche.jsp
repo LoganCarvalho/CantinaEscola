@@ -121,5 +121,14 @@
                     <hr>        
                 </div>
         </div>
+        </div>
+         <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright; SCE 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
     </body>
 </html>
