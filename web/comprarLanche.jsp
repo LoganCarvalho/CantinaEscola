@@ -51,7 +51,75 @@
                 </div>  
                 <div class="row">
                     <hr>        
-                </div>          
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label>Escolha os alimentos a serem comprados</label>                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label class="checkbox-inline"><input type="checkbox" value="">Feijão com arroz</label>
+                                <label class="checkbox-inline"><input type="checkbox" value="">LAsanha</label>
+                                <label class="checkbox-inline"><input type="checkbox" value="">macarronada</label> 
+                                <label class="checkbox-inline"><input type="checkbox" value="">Option 1gfgg</label>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label class="checkbox-inline"><input type="checkbox" value="">Feijão com arroz(R$ 50,00)</label>
+                                <label class="checkbox-inline"><input type="checkbox" value="">LAsanha</label>
+                                <label class="checkbox-inline"><input type="checkbox" value="">macarronada</label> 
+                                <label class="checkbox-inline"><input type="checkbox" value="">Option 1gfgg</label>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-8 panel panel-succes noti-box ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="text-box" >
+                                    <center><label for="matricula">Matrícula</label></center>                                   
+                                </div>                                
+                            </div>  
+                            <div class="col-md-8">
+                                <div class="text-box" >
+                                    <input type="txt"  name="matricula" class="form-control" id="matricula">
+                                </div>                                
+                            </div> 
+                       </div> 
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="text-box" >
+                                    <center><label for="saldo">Saldo</label></center>                                   
+                                </div>                                
+                            </div>  
+                            <div class="col-md-8">
+                                <div class="text-box" >
+                                    <input type="txt" disabled="disabled"  name="saldo" class="form-control" id="saldo">
+                                </div>                                
+                            </div> 
+                       </div> 
+                        <div class="row">
+                            <div class="col-md-offset-7" style="margin-top: 10px;">
+                                <div class="text-box" >
+                                    <button type="submit" class="btn btn-success">Consultar Saldo</button>
+                                </div>                                
+                            </div>                             
+                       </div> 
+                   </div>                      
+               </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-success">Finalizar Compra</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <hr>        
+                </div>
         </div>
     </body>
 </html>
